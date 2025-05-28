@@ -1,8 +1,7 @@
-# 🌐 Technova - Landing Page
+# 💻 Technova - Laptop Product Landing Page
 
-Welcome to **Technova**, a vibrant, interactive, and responsive landing page designed to showcase your college’s technical symposium and cultural fest. This web project combines modern HTML, CSS, and JavaScript to deliver an engaging user experience.
+Welcome to **Technova**, a sleek, interactive, and fully responsive landing page designed to showcase your latest **laptop product**. This web project uses modern HTML, CSS, and JavaScript to deliver a premium and engaging product experience for visitors.
 
----
 
 ## 📌 Table of Contents
 
