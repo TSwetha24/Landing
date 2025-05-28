@@ -46,9 +46,10 @@ You can view the project live here:
 
 ## 🖼 Screenshots
 
-> _(Add screenshots showcasing the homepage, features, and contact form on desktop and mobile view)_
 
 ---
+![image](https://github.com/user-attachments/assets/1561ba04-38a9-456a-a757-6d19637d9476)
+
 
 ## 🔧 Usage
 
