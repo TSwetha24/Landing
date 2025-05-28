@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page - TechNova</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .navbar a:hover {
+      color: blueviolet;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">TechNova</h1>
+      <ul class="nav-links">
+        <li><a href="#features" onclick="navigateTo('features')">Features</a></li>
+        <li><a href="#contact" onclick="navigateTo('contact')">Contact</a></li>
+        <li><a href="#top" onclick="scrollToTop()">Home</a></li>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+      </ul>
+    </nav>
+
+    <section class="hero" id="top">
+      <div class="hero-content">
+        <h2>Welcome to TechNova</h2>
+        <p>Your one-stop solution for everything digital.</p>
+        <button onclick="navigateTo('features')">Explore Features</button>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="features" class="features">
+      <h3>Our Features</h3>
+      <div class="feature-cards">
+        <div class="card">⚡ Fast and Reliable</div>
+        <div class="card">🔒 Secure and Scalable</div>
+        <div class="card">🎯 Easy to Use Interface</div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h3>Contact Us</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" class="email-input" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TechNova. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
